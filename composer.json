@@ -1,5 +1,5 @@
 {
-  "name": "jinraynor/table_partition",
+  "name": "jinraynor/table_cleaner",
   "description": "Cleans manually partioned table by droppping it ",
   "minimum-stability": "stable",
   "license": "proprietary",
