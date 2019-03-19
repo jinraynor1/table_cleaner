@@ -14,8 +14,8 @@ class MySQL extends DefaultDriver implements DriverInterface
 
         $stmt = $this->database->prepare($sql);
 
-        $stmt->execute($this->getDatabase());
-        return $stmt->fetchAll(PDO::FETCH_COLUMN, 0);
+        $stmt->execute(array($this->getDatabase()));
+        return $stmt->fetchAll(\PDO::FETCH_COLUMN, 0);
 
     }
 
